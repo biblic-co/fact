@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>fact_check_sample</title>
+    <link href="css/sample_2.css" rel="stylesheet">
+    
     <style>
         * {
             margin: 0;
@@ -56,14 +58,8 @@
             
         }
         
-        .contents_guide_top > span{
-            font-size: 50px;
-            width:100%;
-            text-align: center;
-        }
         
-        .contents_guide_top > p {font-size: 20px;
-        }
+       
         
         .contents_guide_mid{
             width:100%;
@@ -77,7 +73,7 @@
         
         .contents_guide_mid > .contents_guide_mid_box{
             width:96%;
-            height:80px;
+            height:30%;
             background: #666;
             margin:10px 0 0;
             border-radius:10px;
@@ -89,14 +85,21 @@
             flex-wrap:wrap;
             justify-content: space-between;
             align-items: flex-start;
-            font-size: 14px;
+            font-size: 20px;
+            font-weight: bold;
         }
         
         .contents_guide_mid > .contents_guide_mid_box > .contents_guide_mid_box_list{
             padding:10px 0 0;
             font-size: 16px;
             font-weight: bold;
-        }
+            border:1px solid #fff;
+            border-radius: 10px;
+            height:60px;
+            margin:20px 0 0;
+            display: flex;
+            line-height: 35px;
+            }
         
         .contents_guide_bottom{
             width:100%;
@@ -109,20 +112,15 @@
         }
         
         .contents_guide_bottom> .contents_guide_bottom_box{
-            width:80%;
-            height:80%;
+            width:90%;
+            height:50%;
             background: gold;
             display:flex;
             justify-content: space-evenly;
             align-items: center;
-        }
-        
-        .contents_guide_bottom> .contents_guide_bottom_box > .contents_guide_bottom_box_img{
-            width:70px;
-            height:70px;
-            background: pink;
             border-radius: 10px;
         }
+     
         
     </style>
 </head>
@@ -133,35 +131,25 @@
             control
             <div id="contents_guide">
                <div class="contents_guide_top">
-                   <span>18:06(현재시간넣어야함)</span>
-                <p>06월 9일 목요일(현재시간넣어야함)</p>   
+             
                </div>
                <div class="contents_guide_mid">
                    <div class="contents_guide_mid_box">
                        <div class="contents_guide_mid_box_title">
-                           <span>메세지</span><span>1분 전</span>
+                           <span>메세지를 확인하려면 <br>
+                           이름을 입력해주세요.</span>
                        </div>
                         <div class="contents_guide_mid_box_list">
-                           <span>새로운 메시지가 도착했습니다</span>
+                           <textarea name="" id="name" cols="30" rows="10"></textarea>
                        </div>
                    </div>
                    
                </div> 
                <div class="contents_guide_bottom">
-                    <div class="contents_guide_bottom_box">
-                        <div class="contents_guide_bottom_box_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="contents_guide_bottom_box_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="contents_guide_bottom_box_img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="contents_guide_bottom_box_img">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+                    <a href="sample_4.html">
+                       시작하기</a>
+                         
+                    
                    
                </div> 
  
