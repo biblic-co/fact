@@ -29,17 +29,17 @@ a {
 contents {
     width: 450px;
     height: 100%;
-    background: gold;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: cadetblue
 }
 
 #contents_guide {
-    width: 90%;
+    width: 100%;
     height: 95%;
-    border: 1px solid #000;
+
 }
 
 .contents_guide_top {
@@ -66,7 +66,7 @@ contents {
 
 .contents_guide_mid {
     width: 100%;
-    height: 60%;
+    height: 61%;
     background: yellowgreen;
     display: flex;
     flex-wrap: wrap;
@@ -77,32 +77,34 @@ contents {
 
 .contents_guide_mid > .contents_guide_mid_box {
     width: 100%;
-    height: 100px;
+    height: 120px;
     background: green;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 .contents_guide_mid > .contents_guide_mid_box > a {
     width: 96%;
     height: 70px;
-    background: #fff;
+    background-color: bisque;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding:4px;
+    padding: 4px 10px;
+    color: #000;
 }
 
 
 
 
+
+
 .contents_guide_mid > .contents_guide_mid_box > a > .mid_box_space_between {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -113,7 +115,7 @@ contents {
 
 
 .contents_guide_mid > .contents_guide_mid_box > a:hover {
-    background: yellow;
+    background: cornflowerblue;;
 }
 
 
@@ -126,7 +128,7 @@ contents {
 
 .contents_guide_bottom {
     width: 100%;
-    height: 10%;
+    height: 12%;
     background: orange;
     display: flex;
     flex-wrap: wrap;
