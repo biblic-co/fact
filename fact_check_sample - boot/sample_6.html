@@ -40,7 +40,7 @@
                         </div>
                         <div class="message_list_contents">
                             <div class="message_list_contents_name">
-                                <p>친구 땅땅이</p>
+                                <a href="sample_9.html">친구 땅땅이</a>
                             </div>
                             <div class="message_list_contents_talk">
                                 <div class="message_list_contents_talkbox">
@@ -93,18 +93,18 @@
                             </div>
                             <div class="message_list_contents_talk">
                                 <div class="message_list_contents_talkbox" id="modal_button">
-                                  
-                                        <p class="image blinking">
-                                            x병원 전임 원장님께 받은 정보 공유드립니다.<br>
-                                            하루에 한잔은 녹차를 드십시오. 녹차에
-                                            카테킨류가 10퍼센트 들어가있습니다.
-                                            최근 들어 이 카테킨에 의한 억제작용덕분에
-                                            하루에 한잔 녹차를 마시면 치매를 없애줍니다.
-                                            녹차! 하루에 한잔씩 꼭 드세요.<br>
-                                            -의학박사 xxx<br>
-                                            http://www.freenteasafe.health/watch/?v=4354
-                                        </p>
-                          
+
+                                    <p class="image blinking">
+                                        x병원 전임 원장님께 받은 정보 공유드립니다.<br>
+                                        하루에 한잔은 녹차를 드십시오. 녹차에
+                                        카테킨류가 10퍼센트 들어가있습니다.
+                                        최근 들어 이 카테킨에 의한 억제작용덕분에
+                                        하루에 한잔 녹차를 마시면 치매를 없애줍니다.
+                                        녹차! 하루에 한잔씩 꼭 드세요.<br>
+                                        -의학박사 xxx<br>
+                                        http://www.freenteasafe.health/watch/?v=4354
+                                    </p>
+
 
                                 </div>
                             </div>
@@ -126,51 +126,48 @@
                     <img src="img/talk_sample_bottom_chat.jpg" alt="">
 
                 </div>
-               
-               
-               
+
+
+
 
             </div>
-         
-            
-            
+
+
+
         </contents>
 
-         
 
-            <div class="background">
-                <div class="window">
-                    <div class="popup">
-                       <p>이 메세지를 공유하시겠습니까?</p>
-                       <div class="answer_box">
-                        <button id="answer_yes">공유할게요</button>
-                        <button id="answer_no">안 할래요</button>
-                        </div>
+
+        <div class="background">
+            <div class="window">
+                <div class="popup">
+                    <p>이 메세지를 공유하시겠습니까?</p>
+                    <div class="answer_box">
+                        <a href="sample_7.html">공유할게요</a>
+                        <a href="sample_8.html">안 할래요</a>
                     </div>
                 </div>
             </div>
+        </div>
 
 
     </div>
-<script>
-    
-    
-    
-    function show () {
-  document.querySelector(".background").className = "background show";
-}
+    <script>
+        function show() {
+            document.querySelector(".background").className = "background show";
+        }
 
-function close () { 
-  document.querySelector(".background").className = "background";
-}
-    
+        function close() {
+            document.querySelector(".background").className = "background";
+        }
 
 
-document.querySelector("#modal_button").addEventListener('click', show);
-document.querySelector("#answer_yes").addEventListener('click', close);
-    
-    
-    document.querySelector("#answer_no").addEventListener('click', close);
+        document.querySelector("#modal_button").addEventListener('click', show);
+        document.querySelector("#answer_yes").addEventListener('click', close);
+
+        document.querySelector("#answer_no").addEventListener('click', close);
+
+
     </script>
 
 

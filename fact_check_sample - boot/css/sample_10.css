@@ -139,17 +139,9 @@ contents {
     align-items: flex-start;
 }
 
-.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name >a {
-    border:none;
+.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name > p {
     font-size: 14px;
     color: #666
-}
-
-.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name > a:hover {
-    border:none;
-    font-size: 14px;
-    color: #000;
-    cursor:pointer;
 }
 
 .contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_talk {
@@ -347,8 +339,8 @@ contents {
     z-index: 1000;
 
     /* 숨기기 */
-    z-index: -1;
-    opacity: 0;
+    z-index: ;
+    opacity: ;
 }
 
 .show {
@@ -385,13 +377,27 @@ contents {
     /* 초기에 약간 아래에 배치 */
     transform: translate(-50%, -40%);
 }
-
 .popup > p {
     width: 100%;
     text-align: center;
-    font-size: 27px;
+    font-size: 25px;
     color: #fff;
     font-weight: bold;
+    line-height:40px
+    
+}
+
+.popup > p >span{
+    color:darkgoldenrod;
+}
+
+.popup > span {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin:-200px 0 0;
 }
 
 .popup > .answer_box {
@@ -401,35 +407,6 @@ contents {
     align-items: center;
     width: 100%;
 }
-
-.popup > .answer_box > a{
-    color:#fff;
-    width:100%;
-    height:60px;
-    background:darkblue;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-
-.popup > .answer_box > a:nth-child(2){
-    color:#000;
-    width:100%;
-    height:60px;
-    background:#fff;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    margin:10px 0 0;
-}
-
-
 
 .popup > .answer_box >#answer_yes,#answer_no{
     width:100%;
@@ -443,13 +420,15 @@ contents {
     font-size:20px;
     }
 
-.popup > .answer_box >#answer_no{
-    background:#fff;
-    color:#000;   
-}
-
-.popup > .answer_box >#answer_yes,#answer_no:hover{
-    cursor: pointer;
+.popup > .answer_box > a{
+    color:#fff;
+    width:100%;
+    height:60px;
+    background:darkblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .show .popup {
@@ -458,22 +437,5 @@ contents {
 }
 
 
-/*반짝이 효과*/
-.blinking{
-  -webkit-animation:blink 1.5s ease-in-out infinite alternate;
-  -moz-animation:blink 1.5s ease-in-out infinite alternate;
-  animation:blink 1.5s ease-in-out infinite alternate;
-}
-@-webkit-keyframes blink{
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-@-moz-keyframes blink{
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-@keyframes blink{
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-https://pikabu.tistory.com/103
+
+
