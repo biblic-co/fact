@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>fact_check_sample</title>
-    <link rel="stylesheet" href="css/sample_6.css">
+    <link rel="stylesheet" href="css/sample_7.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
@@ -141,10 +141,12 @@
             <div class="background">
                 <div class="window">
                     <div class="popup">
-                       <p>이 메세지를 공유하시겠습니까?</p>
+                       <p>내가 전달한 정보를 <br>다른 사람이<br> 
+                       그대로 믿어도 괜찮나요?</p>
+                       <span>이미 공유한 정보는 되돌리기 어렵습니다.</span>
                        <div class="answer_box">
-                        <button id="answer_yes">공유할게요</button>
-                        <button id="answer_no">안 할래요</button>
+                        <a href="sample_6.html">돌아가기</a>
+                        
                         </div>
                     </div>
                 </div>
@@ -152,26 +154,6 @@
 
 
     </div>
-<script>
-    
-    
-    
-    function show () {
-  document.querySelector(".background").className = "background show";
-}
-
-function close () { 
-  document.querySelector(".background").className = "background";
-}
-    
-
-
-document.querySelector("#modal_button").addEventListener('click', show);
-document.querySelector("#answer_yes").addEventListener('click', close);
-    
-    
-    document.querySelector("#answer_no").addEventListener('click', close);
-    </script>
 
 
 
