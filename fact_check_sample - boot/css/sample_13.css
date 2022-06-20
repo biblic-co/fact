@@ -295,9 +295,11 @@ contents {
     color: #fff;
     line-height: 24px;
 }
-.message_list_contents_talkbox:hover{
+
+.message_list_contents_talkbox:hover {
     cursor: pointer;
 }
+
 .contents_guide_mid > .message_list_6 > .message_list_contents > .message_list_contents_talk:nth-child(3) {
     margin: 10px 0 0;
 
@@ -327,7 +329,7 @@ contents {
     height: 100%;
 }
 
-  /*  모달창  */
+/*  모달창  */
 
 .background {
     position: fixed;
@@ -362,7 +364,7 @@ contents {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-wrap: wrap;
@@ -375,30 +377,79 @@ contents {
 
 
     /* 초기에 약간 아래에 배치 */
-    transform: translate(-50%, -40%);
+    transform: translate(-65%, -67%);
 }
-.popup > p {
+
+
+.popup > .popup_top {
     width: 100%;
-    text-align: center;
-    font-size: 25px;
-    color: #fff;
-    font-weight: bold;
-    line-height:40px
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
-.popup > p >span{
-    color:darkgoldenrod;
+.popup > .popup_top > .img_box {
+    width: 60px;
+    height: 60px;
+    background: pink;
+    border-radius: 50px;
 }
 
-.popup > span {
-    width: 100%;
-    text-align: center;
-    font-size: 17px;
-    color: #fff;
-    font-weight: bold;
-    margin:-120px 0 0;
+.popup > .popup_top > .name_contents {
+    width: 250px;
+    height: auto;
+    margin: 0 0 0 10px;
+    color:#eee;
 }
+
+.popup > .popup_top > .name_contents > .contents {
+    width: 100%;
+    height: 150px;
+    background: blue;
+    border-radius: 22px 22px 22px 0;
+    margin: 5px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:#fff;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    padding:10px 0 ;
+}
+
+.popup > .popup_top > .name_contents > .contents >p>span{
+    color:slategray;
+}
+
+.popup > .popup_top > .name_contents > .contents > a {
+    width: 40%;
+    margin:0 1%;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#000;
+}
+
+.popup > .popup_top > .name_contents > .contents > a:hover{
+    
+}
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(2) {
+    background: #fff;
+    color: #000;
+}
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(3) {
+    background-color: cadetblue;
+    color: #fff;
+}
+
 
 .popup > .answer_box {
     display: flex;
@@ -408,24 +459,25 @@ contents {
     width: 100%;
 }
 
-.popup > .answer_box >#answer_yes,#answer_no{
-    width:100%;
-    height:60px;
+.popup > .answer_box > #answer_yes,
+#answer_no {
+    width: 100%;
+    height: 60px;
     background-color: darkblue;
-    border-radius:10px;
-    border:none;
-    margin:5px;
-    color:#fff;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    color: #fff;
     font-weight: bold;
-    font-size:20px;
-    }
+    font-size: 20px;
+}
 
-.popup > .answer_box > a{
-    color:#fff;
-    width:100%;
-    height:60px;
-    background:darkblue;
-    display:flex;
+.popup > .answer_box > a {
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    background: darkblue;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -436,6 +488,23 @@ contents {
     transition: all .5s;
 }
 
+/*팝업 메세지 */
+.message_list_contents_talk_popup{
+    width:320px;
+    height:310px;
+    border-radius: 10px;
+    background:#2f2f30;
+    padding:20px;
+    margin:-
+}
 
+.message_list_contents_talk_popup>.message_list_contents_talkbox_popup{
+    line-height: 25px;
+    color:#000;
+}
+
+.message_list_contents_talk_popup>.message_list_contents_talkbox_popup>p>span{
+    color:#fff;    
+}
 
 

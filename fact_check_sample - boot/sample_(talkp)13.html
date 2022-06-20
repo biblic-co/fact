@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>fact_check_sample</title>
-    <link rel="stylesheet" href="css/sample_10.css">
+    <link rel="stylesheet" href="css/sample_6.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
@@ -40,7 +40,7 @@
                         </div>
                         <div class="message_list_contents">
                             <div class="message_list_contents_name">
-                                <p>친구 땅땅이</p>
+                                <a href="sample_9.html">친구 땅땅이</a>
                             </div>
                             <div class="message_list_contents_talk">
                                 <div class="message_list_contents_talkbox">
@@ -138,23 +138,37 @@
 
 
 
-        
-            <div class="background">
-                <div class="window">
-                    <div class="popup">
-                        <p><span>정보를 전달한 사람</span>을 믿기<br>
-                        때문에 그 정보를 신뢰하는 <br>
-                            것은 아닌가요?</p>
-                            <span>정보를 전달하는 사람이 가족, 친구, 선배 등<br> 내가 믿을 만한 사람이라도 그 사람이<br> 전달하는 정보가 항상 믿을만한<br> 것은 아닙니다.</span>
-                       <div class="answer_box">
-                        <a href="sample_6.html">알겠습니다</a>
-                        
-                        </div>
+        <div class="background">
+            <div class="window">
+                <div class="popup">
+                    <p>이 메세지를 공유하시겠습니까?</p>
+                    <div class="answer_box">
+                        <a href="sample_7.html">공유할게요</a>
+                        <a href="sample_8.html">안 할래요</a>
                     </div>
                 </div>
             </div>
+        </div>
+
 
     </div>
+    <script>
+        function show() {
+            document.querySelector(".background").className = "background show";
+        }
+
+        function close() {
+            document.querySelector(".background").className = "background";
+        }
+
+
+        document.querySelector("#modal_button").addEventListener('click', show);
+        document.querySelector("#answer_yes").addEventListener('click', close);
+
+        document.querySelector("#answer_no").addEventListener('click', close);
+
+
+    </script>
 
 
 

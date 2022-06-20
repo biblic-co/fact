@@ -396,7 +396,7 @@ contents {
 }
 
 .popup > .popup_top > .name_contents {
-    width: 70%;
+    width: 250px;
     height: auto;
     margin: 0 0 0 10px;
     color:#eee;
@@ -414,10 +414,10 @@ contents {
     align-items: center;
     font-weight: bold;
     color:#fff;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 31px;
     text-align: center;
-    padding:10px 0 0;
+    padding:10px 0 ;
 }
 
 .popup > .popup_top > .name_contents > .contents >p>span{

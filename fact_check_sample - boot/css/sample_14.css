@@ -369,7 +369,7 @@ contents {
     justify-content: center;
     align-items: center;
     /* 임시 지정 */
-    width: 67%;
+    width: 82%;
     height: 60%;
 
 
@@ -380,7 +380,7 @@ contents {
 .popup > p {
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
     color: #fff;
     font-weight: bold;
     line-height:40px
@@ -421,14 +421,17 @@ contents {
     }
 
 .popup > .answer_box > a{
-    color:#fff;
+    color:#000;
     width:100%;
-    height:60px;
-    background:darkblue;
+    height:53px;
+    background:#fff;
     display:flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    font-weight: bold;
+    font-size:17px;
+    margin:10px 0 0;
 }
 
 .show .popup {
@@ -436,6 +439,16 @@ contents {
     transition: all .5s;
 }
 
+/*input 타이핑박스*/
+.insertname{
+    width:100%;
+    line-height:50px;
+    border-radius: 10px;
+    border:2px solid #fff;
+    background-color:transparent;
+    font-size: 17px;
+    padding:0 0 0 10px;
+}
 
 
 
