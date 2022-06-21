@@ -7,6 +7,10 @@
     <link href="css/sample.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
+
+
 </head>
 
 <body>
@@ -15,8 +19,32 @@
 
             <div id="contents_guide">
                 <div class="contents_guide_top">
-                    <span>18:06(현재시간넣어야함)</span>
-                    <p>06월 9일 목요일(현재시간넣어야함)</p>
+
+
+                    <h1 id="clock" style="color:black;">clock</h1>
+
+                    <script>
+                        var Target = document.getElementById("clock");
+
+                        function clock() {
+                            var time = new Date();
+
+                            var month = time.getMonth();
+                            var date = time.getDate();
+                            var day = time.getDay();
+                            var week = ['일', '월', '화', '수', '목', '금', '토'];
+
+                            var hours = time.getHours();
+                            var minutes = time.getMinutes();
+                            var seconds = time.getSeconds();
+
+                            Target.innerText =
+                                `${month + 1}월 ${date}일 ${week[day]}요일 ` + `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
+
+                        }
+                        clock();
+                        setInterval(clock, 1000); // 1초마다 실행
+                    </script>
                 </div>
                 <div class="contents_guide_mid">
 
