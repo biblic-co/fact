@@ -149,7 +149,7 @@ contents {
     height: auto;
     background-color: dimgray;
     border-radius: 0 22px 22px 22px;
-    padding: 10px 20px;
+    padding: 10px 20px 0;
     color: #fff;
     line-height: 24px;
 }
@@ -222,7 +222,7 @@ contents {
     height: auto;
     background-color: dimgray;
     border-radius: 0 22px 22px 22px;
-    padding: 10px 20px;
+    padding: 10px 20px 0;
     color: #fff;
     line-height: 24px;
 }
@@ -291,7 +291,7 @@ contents {
     height: auto;
     background-color: dimgray;
     border-radius: 0 22px 22px 22px;
-    padding: 10px 20px;
+    padding: 10px 20px 0;
     color: #fff;
     line-height: 24px;
 }
@@ -303,9 +303,13 @@ contents {
     color:#fff;
 }
 
+.message_list_contents_talkbox>a:hover{
+    color:#333;
+}
+
 .message_list_contents_talkbox:hover{
     cursor:pointer;
-    
+ 
 }
 
 .message_list_6>.message_list_contents >img{
@@ -318,7 +322,6 @@ contents {
 .contents_guide_bottom {
     width: 100%;
     height: 6%;
-    background: orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
