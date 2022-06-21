@@ -381,7 +381,7 @@ contents {
 .popup > p {
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     color: #fff;
     font-weight: bold;
     line-height:40px
@@ -391,7 +391,7 @@ contents {
 .popup > p >span{
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     color:goldenrod;
     font-weight: bold;
     line-height:40px
@@ -402,10 +402,10 @@ contents {
 .popup > span {
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
-    margin:-200px 0 0;
-    line-height: 27px;
+    
+    line-height: 22px;
 }
 
 .popup > .answer_box {

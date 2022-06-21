@@ -361,7 +361,7 @@ contents {
 
 .popup {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -483,7 +483,7 @@ contents {
     border-radius: 10px;
 }
 
-.show .popup {
+.popup {
     transform: translate(-50%, -50%);
     transition: all .5s;
 }
@@ -495,7 +495,7 @@ contents {
     border-radius: 10px;
     background:#2f2f30;
     padding:20px;
-    margin:-
+    
 }
 
 .message_list_contents_talk_popup>.message_list_contents_talkbox_popup{

@@ -477,12 +477,13 @@ contents {
     height: 60px;
     background: darkblue;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
 
-.show .popup {
+.popup {
     transform: translate(-50%, -50%);
     transition: all .5s;
 }

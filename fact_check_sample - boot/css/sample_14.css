@@ -434,7 +434,7 @@ contents {
     margin:10px 0 0;
 }
 
-.show .popup {
+.popup {
     transform: translate(-50%, -50%);
     transition: all .5s;
 }
