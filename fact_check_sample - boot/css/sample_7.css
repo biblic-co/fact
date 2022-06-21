@@ -370,12 +370,12 @@ contents {
     align-items: center;
     /* 임시 지정 */
     width: 67%;
-    height: 60%;
+    height: 80%;
 
 
 
     /* 초기에 약간 아래에 배치 */
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -55%);
 }
 .popup > p {
     width: 100%;
@@ -428,9 +428,13 @@ contents {
     border-radius: 10px;
 }
 
-.show .popup {
+.popup {
     transform: translate(-50%, -50%);
     transition: all .5s;
+}
+
+.popup >span{
+    margin:50px 0 0;
 }
 
 
