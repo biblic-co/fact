@@ -57,7 +57,7 @@
 
         .contents_guide_mid {
             width: 100%;
-            height: 55%;
+            height: 58%;
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-start;
@@ -66,8 +66,7 @@
         }
 
         .contents_guide_mid>.contents_guide_mid_box {
-            width: 90%;
-            margin:0 5%;
+            width: 100%;
             height: 100px;
             display: flex;
             flex-wrap: nowrap;
@@ -75,11 +74,23 @@
             align-items: center;
             border-bottom: 1px solid #ddd;
         }
+
+
         
-        .contents_guide_mid>.contents_guide_mid_box>a>img{
-            width:100%;
-            height:100%;
+        .contents_guide_mid>.contents_guide_mid_box>a>.chat_list{width:100%;
+            height:30%;
+            background: gold;
+            display: flex;
+            flex-wrap:nowrap;
+            justify-content: space-between;
+            align-items: center;
         }
+
+.contents_guide_mid>.contents_guide_mid_box>a>.chat_list>.chat_img{
+    width:20%;
+    height:100%;
+    background: pink;
+}
 
 
 
