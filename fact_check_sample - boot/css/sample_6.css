@@ -23,6 +23,7 @@ body {
 
 #wrap {
     width: 100%;
+    margin: 0;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -32,12 +33,14 @@ body {
 
 contents {
     width: 450px;
-    height: 100%;
+    margin:1% 10% 0;
+    height: 99%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
     justify-content: center;
     align-items: center;
 }
+
 
 #contents_guide {
     width: 100%;
@@ -46,7 +49,7 @@ contents {
 
 .contents_guide_top {
     width: 100%;
-    height: 7%;
+    height: 5%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -55,7 +58,7 @@ contents {
 }
 
 .contents_guide_top > .page {
-    font-size: 27px;
+    font-size: 17px;
     line-height: 30px;
     width: 100px;
     display: flex;
@@ -63,12 +66,15 @@ contents {
 }
 
 .contents_guide_top > .page > img {
-    width: 27px;
+    width: 17px;
+    height:27px;
+    line-height:17px;
+    margin:3px 0 0 0;
 
 }
 
 .contents_guide_top > .f_name > p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -77,17 +83,19 @@ contents {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    margin:0 0 15px 0;
 }
 
 .contents_guide_top > .ham > img {
-    width: 35px;
+    width: 17px;
+    height:17px;
 }
 
 
 .contents_guide_mid {
     width: 100%;
-    height: 87%;
-    background: #eee;
+    height: 100vh;
+    margin:10px 0 0;
 }
 
 .contents_guide_mid > .message_list_1 {
@@ -115,9 +123,12 @@ contents {
 .contents_guide_mid > .message_list_2 > .message_list_pic {
     width: 60px;
     height: 60px;
-    background: pink;
     border-radius: 50px;
+}
 
+.contents_guide_mid > .message_list_2 > .message_list_pic img{
+    width:100%;
+    height:100%;
 }
 
 .contents_guide_mid > .message_list_2 > .message_list_contents {
@@ -139,17 +150,9 @@ contents {
     align-items: flex-start;
 }
 
-.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name >a {
-    border:none;
+.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name > p {
     font-size: 14px;
     color: #666
-}
-
-.contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_name > a:hover {
-    border:none;
-    font-size: 14px;
-    color: #000;
-    cursor:pointer;
 }
 
 .contents_guide_mid > .message_list_2 > .message_list_contents > .message_list_contents_talk {
@@ -196,7 +199,7 @@ contents {
 .contents_guide_mid > .message_list_4 > .message_list_pic {
     width: 60px;
     height: 60px;
-    background: pink;
+    
     border-radius: 50px;
 
 }
@@ -265,7 +268,7 @@ contents {
 .contents_guide_mid > .message_list_6 > .message_list_pic {
     width: 60px;
     height: 60px;
-    background: pink;
+   
     border-radius: 50px;
 
 }
@@ -302,9 +305,6 @@ contents {
     padding: 10px 20px;
     color: #fff;
     line-height: 24px;
-}
-.message_list_contents_talkbox:hover{
-    cursor: pointer;
 }
 .contents_guide_mid > .message_list_6 > .message_list_contents > .message_list_contents_talk:nth-child(3) {
     margin: 10px 0 0;
