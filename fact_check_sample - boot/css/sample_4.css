@@ -33,8 +33,8 @@ body {
 
 contents {
     width: 80%;
-    margin:0 10%;
-    height: 100%;
+    margin:1% 10% 0;
+    height: 99%;
     display: flex;
     flex-wrap:  wrap;
     justify-content: center;
@@ -86,7 +86,8 @@ contents {
 }
 
 .contents_guide_top > .ham > img {
-    width: 25px;
+    width: 17px;
+    height:17px;
 }
 
 
