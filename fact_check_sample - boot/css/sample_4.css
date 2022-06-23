@@ -23,7 +23,7 @@ body {
 
 #wrap {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -31,8 +31,8 @@ body {
 }
 
 contents {
-    width: 450px;
-    height: 95%;
+    width: 70%;
+    height: auto;
     margin:0 5%;
     display: flex;
     flex-wrap: wrap;
@@ -320,19 +320,8 @@ contents {
 }
 
 
-.contents_guide_bottom {
-    width: 100%;
-    height: 6%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 
-.contents_guide_bottom > img {
-    width: 100%;
-    height: 100%;
-}
+
 
 /*반짝이 효과*/
 .blinking{
