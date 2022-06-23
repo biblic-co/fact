@@ -29,7 +29,6 @@ a {
 contents {
     width: 450px;
     height: 100%;
-    background: gold;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
