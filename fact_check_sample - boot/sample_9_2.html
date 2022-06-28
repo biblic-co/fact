@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>fact_check_sample</title>
-    <link rel="stylesheet" href="css/sample_6.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sample_9_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 
 
@@ -19,6 +22,7 @@
 
             <div id="contents_guide">
                 <div class="contents_guide_top">
+
                     <div class="page"><img src="img/arrow.png" alt="">
                         <p>4</p>
                     </div>
@@ -34,13 +38,15 @@
                         <p>2022년 6월 15일 수요일</p>
                     </div>
 
-                     <div class="message_list_2">
+                    <div class="message_list_2">
                         <div class="message_list_pic">
                             <img src="img/talk_1img.png" alt="">
                         </div>
                         <div class="message_list_contents">
                             <div class="message_list_contents_name">
+                               <a href="sample_9.html" class="image blinking">
                                 <p>친구 땅땅이</p>
+                                </a>
                             </div>
                             <div class="message_list_contents_talk">
                                 <div class="message_list_contents_talkbox">
@@ -58,7 +64,7 @@
                     </div>
 
                     <div class="message_list_4">
-                        <div class="message_list_pic">  <img src="img/talk_1img.png" alt=""></div>
+                        <div class="message_list_pic"><img src="img/talk_1img.png" alt=""></div>
                         <div class="message_list_contents">
                             <div class="message_list_contents_name">
                                 <p>친구 땅땅이</p>
@@ -80,7 +86,7 @@
 
                     <div class="message_list_6">
                         <div class="message_list_pic">
-                           <img src="img/talk_1img.png" alt="">
+                            <img src="img/talk_1img.png" alt="">
                         </div>
                         <div class="message_list_contents">
                             <div class="message_list_contents_name">
@@ -92,10 +98,10 @@
                                 </div>
                             </div>
                             <div class="message_list_contents_talk">
-                                <div class="message_list_contents_talkbox" id="modal_button">
-
-                                    <p class="image blinking">
-                                           x병원 전임 원장님께 받은<br> 정보 공유드립니다.<br>
+                                <div class="message_list_contents_talkbox">
+                                 
+                                        <p class="style_none">
+                                            x병원 전임 원장님께 받은<br> 정보 공유드립니다.<br>
                                             하루에 한잔은 녹차를 드십시오.<br> 녹차에
                                             카테킨류가 10퍼센트<br> 들어가있습니다.<br>
                                             최근 들어 이 카테킨에 의한<br> 억제작용덕분에<br>
@@ -103,13 +109,13 @@
                                             녹차!<br> 하루에 한잔씩 꼭 드세요.<br>
                                             -의학박사 xxx<br>
                                             http://www.freenteasafe.<br>health/watch/?v=4354
-                                    </p>
-
+                                        </p>
+                          
 
                                 </div>
                             </div>
 
-                            
+
 
 
                         </div>
@@ -124,47 +130,14 @@
 
 
 
-
-
             </div>
-
-
 
         </contents>
 
 
 
-        <div class="background">
-            <div class="window">
-                <div class="popup">
-                    <p>이 메세지를 공유하시겠습니까?</p>
-                    <div class="answer_box">
-                        <a href="sample_7.html">공유할게요</a>
-                        <a href="sample_8.html">안 할래요</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
     </div>
-    <script>
-        function show() {
-            document.querySelector(".background").className = "background show";
-        }
-
-        function close() {
-            document.querySelector(".background").className = "background";
-        }
-
-
-        document.querySelector("#modal_button").addEventListener('click', show);
-        document.querySelector("#answer_yes").addEventListener('click', close);
-
-        document.querySelector("#answer_no").addEventListener('click', close);
-
-
-    </script>
 
 
 

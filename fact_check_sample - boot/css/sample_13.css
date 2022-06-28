@@ -445,9 +445,20 @@ contents {
     color: #000;
 }
 
+.popup > .popup_top > .name_contents > .contents > a:nth-child(2):hover {
+    background: cadetblue;
+    color: #fff;
+}
+
+
 .popup > .popup_top > .name_contents > .contents > a:nth-child(3) {
     background-color: cadetblue;
     color: #fff;
+}
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(3):hover {
+    background-color: #fff;
+    color: cadetblue;
 }
 
 

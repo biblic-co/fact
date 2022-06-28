@@ -62,12 +62,11 @@
             flex-wrap: wrap;
             justify-content: flex-start;
             align-items: flex-start;
-            padding: 10px;
+           
         }
 
         .contents_guide_mid>.contents_guide_mid_box {
             width: 100%;
-            
             height: 100px;
             display: flex;
             flex-wrap: nowrap;

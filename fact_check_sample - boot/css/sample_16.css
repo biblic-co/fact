@@ -386,7 +386,7 @@ contents {
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .popup > .popup_top > .img_box {
@@ -400,7 +400,7 @@ contents {
     width: 250px;
     height: auto;
     margin: 0 0 0 10px;
-    color:#eee;
+    color: #eee;
 }
 
 .popup > .popup_top > .name_contents > .contents {
@@ -414,31 +414,29 @@ contents {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
     font-size: 17px;
     line-height: 25px;
     text-align: center;
-    padding:10px 0 ;
+    padding: 10px 0;
 }
 
-.popup > .popup_top > .name_contents > .contents >p>span{
-    color:slategray;
+.popup > .popup_top > .name_contents > .contents > p > span {
+    color: slategray;
 }
 
 .popup > .popup_top > .name_contents > .contents > a {
     width: 40%;
-    margin:0 1%;
+    margin: 0 1%;
     height: 35px;
     text-align: center;
     line-height: 35px;
     border-radius: 5px;
     font-weight: bold;
-    color:#000;
+    color: #000;
 }
 
-.popup > .popup_top > .name_contents > .contents > a:hover{
-    
-}
+.popup > .popup_top > .name_contents > .contents > a:hover {}
 
 .popup > .popup_top > .name_contents > .contents > a:nth-child(2) {
     background: #fff;
@@ -449,6 +447,17 @@ contents {
     background-color: cadetblue;
     color: #fff;
 }
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(2):hover {
+    background-color: cadetblue;
+    color: #fff;
+}
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(3):hover {
+    background: #fff;
+    color: #000;
+}
+
 
 
 .popup > .answer_box {
@@ -489,22 +498,20 @@ contents {
 }
 
 /*팝업 메세지 */
-.message_list_contents_talk_popup{
-    width:320px;
-    height:310px;
+.message_list_contents_talk_popup {
+    width: 320px;
+    height: 310px;
     border-radius: 10px;
-    background:#2f2f30;
-    padding:20px;
-    margin:-
+    background: #2f2f30;
+    padding: 20px;
+    margin: -
 }
 
-.message_list_contents_talk_popup>.message_list_contents_talkbox_popup{
+.message_list_contents_talk_popup > .message_list_contents_talkbox_popup {
     line-height: 25px;
-    color:#000;
+    color: #000;
 }
 
-.message_list_contents_talk_popup>.message_list_contents_talkbox_popup>p>span{
-    color:#fff;    
+.message_list_contents_talk_popup > .message_list_contents_talkbox_popup > p > span {
+    color: #fff;
 }
-
-

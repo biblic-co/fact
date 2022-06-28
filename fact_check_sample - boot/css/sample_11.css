@@ -392,8 +392,13 @@ contents {
 .popup > .popup_top > .img_box {
     width: 60px;
     height: 60px;
-    background: pink;
+    background: #fff;
     border-radius: 50px;
+}
+
+.popup > .popup_top > .img_box> img{
+    width:100%;
+    height:108%;
 }
 
 .popup > .popup_top > .name_contents {
@@ -437,7 +442,7 @@ contents {
 }
 
 .popup > .popup_top > .name_contents > .contents > a:hover{
-    
+
 }
 
 .popup > .popup_top > .name_contents > .contents > a:nth-child(2) {
@@ -445,9 +450,19 @@ contents {
     color: #000;
 }
 
+.popup > .popup_top > .name_contents > .contents > a:nth-child(2):hover {
+    background: cadetblue;
+    color: #fff;
+}
+
 .popup > .popup_top > .name_contents > .contents > a:nth-child(3) {
     background-color: cadetblue;
     color: #fff;
+}
+
+.popup > .popup_top > .name_contents > .contents > a:nth-child(3):hover {
+    background-color: #fff;
+    color: #000;
 }
 
 

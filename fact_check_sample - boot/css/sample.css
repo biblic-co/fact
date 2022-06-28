@@ -76,7 +76,6 @@ contents {
 .contents_guide_mid > .contents_guide_mid_box {
     width: 100%;
     height: 120px;
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,7 +83,7 @@ contents {
 }
 
 .contents_guide_mid > .contents_guide_mid_box > a {
-    width: 96%;
+    width: 85%;
     height: 70px;
     background-color:darkslateblue;
     border-radius: 10px;
